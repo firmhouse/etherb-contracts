@@ -7,7 +7,7 @@ contract EtherBusiness {
   address owner;
 
   /* Initializes contract with initial supply tokens to the creator of the contract */
-  function WorkForEther() public {
+  function EtherBusiness() public {
     owner = msg.sender;
   }
 
